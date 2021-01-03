@@ -1,10 +1,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
+/* Additional Fonts imported */
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
-
-
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -144,7 +142,10 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 /* Header Node */
 
-/* .bio {
+
+/* 
+can be removed
+.bio {
   /* -webkit-box-flex: 1;
   -webkit-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -161,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation: fadein 4s;
   animation: fadein 4s;
   letter-spacing: -1px;
-  max-width: 66%; */
+  max-width: 66%; 
 } */
 
 @media (max-width: 800px) {
@@ -344,19 +345,20 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
- video {
-  /* filter: blur(15px); */
-  position: fixed;
-  background-size: cover;
+ #hero video {
+  filter: blur(0px);
+  position: fixed !important;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100vw;
   height: 100vh;
-  z-index: -1;
- 
-
+  z-index: -999;
+  object-fit: cover;
+  display: flex;
 } 
 
 
