@@ -339,7 +339,7 @@ can be removed
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/3.jpg") top right no-repeat;
+  background: url("../img/5.jpg") top right no-repeat;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
