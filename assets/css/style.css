@@ -1105,6 +1105,10 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
+/* .contact .info .cv i{
+  background: url("/assets/resume/latest/Gurpreet Singh.pdf");
+} */
+
 .contact .info h4 {
   padding: 0 0 0 60px;
   font-size: 22px;
@@ -1120,11 +1124,14 @@ section {
   color: #728394;
 }
 
-.contact .info .email, .contact .info .phone {
+.contact .info .email, .contact .info .phone, .contact .info .cv{
   margin-top: 40px;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i,
+.contact .info .cv:hover i {
   background: #0563bb;
   color: #fff;
 }
