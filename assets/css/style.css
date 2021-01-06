@@ -357,7 +357,7 @@ can be removed
       z-index: -1;
   } */
 
- #hero video {
+ /* #hero video {
   position: absolute;
   bottom: 0;
   right: 50%;
@@ -372,7 +372,7 @@ can be removed
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-} 
+}  */
 
 
 @media (min-width: 992px) {
@@ -569,11 +569,12 @@ section {
 --------------------------------------------------------------*/
 .facts {
   padding: 40px 0;
-  background: url("../img/m5.jpg") no-repeat;
-  background-position: center center;
+  background: url("../img/m5.jpg") top right no-repeat;
+  /* background-position: center center; */
   background-attachment: fixed;
   background-size: cover;
   position: relative;
+  z-index: -1;
 }
 
 .facts::before {
