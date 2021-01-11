@@ -57,6 +57,7 @@ h6 {
   transition: background 0.2s ease-in-out;
 }
 
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -374,17 +375,17 @@ h6 {
   position: relative;
 }
 
-video {
+.video-wrapper {
   /* filter: blur(15px); */
   position: fixed;
   background-size: cover;
-  top: 0;
-  left: 0;
   right: 0;
   bottom: 0;
-  width: 100%;
-  height: 100vh;
+  width: auto;
+  height: auto;
   z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 
@@ -446,7 +447,7 @@ video {
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: #45505b;
+  color: #0d0d0e;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
@@ -1377,8 +1378,8 @@ section {
 
 
 #footer .content-author__image {
-  width: 90px;
-  height: 90px;
+  width: 95px;
+  height: 100px;
   border-radius: 50%;
   margin: 0 auto
 }
