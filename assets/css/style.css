@@ -176,6 +176,11 @@ h6 {
   }
 }
 
+.bio h1{
+  font-size: 15px;
+  font-weight: normal;
+}
+
 .bio a {
   color: #CCCCCC;
   -webkit-transition: 1s;
