@@ -1402,12 +1402,7 @@ section {
 }
 
 #footer .social-links {
-    font-size: 24px;
-    display: inline-block;
-    color: #0d0d0e;
-    line-height: 1;
-    margin-right: 20px;
-    transition: 0.3s;
+  margin: 0 0 40px 0;
 }
 
 

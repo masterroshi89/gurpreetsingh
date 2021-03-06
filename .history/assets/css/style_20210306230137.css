@@ -1402,19 +1402,14 @@ section {
 }
 
 #footer .social-links {
-    font-size: 24px;
-    display: inline-block;
-    color: #0d0d0e;
-    line-height: 1;
-    margin-right: 20px;
-    transition: 0.3s;
+  margin: 0 0 40px 0;
 }
 
 
 #footer .content-author__image {
   width: 95px;
   height: 95px;
-  border-radius: 90%;
+  border-radius: 100%;
   margin: 0 auto
 }
 
