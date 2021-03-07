@@ -1,0 +1,149 @@
+ Previous DemoBest jQueryCodelab Timeline Style : Demo 68 2018 Web Designing Lorem ipsum dolor sit amet,
+ consectetur adipiscing elit. Integer malesuada tellus lorem,
+ et condimentum neque commodo 2017 Java Script Lorem ipsum dolor sit amet,
+ consectetur adipiscing elit. Integer malesuada tellus lorem,
+ et condimentum neque commodo 2016 Web Development Lorem ipsum dolor sit amet,
+ consectetur adipiscing elit. Integer malesuada tellus lorem,
+ et condimentum neque commodo 2015 Web Designing Lorem ipsum dolor sit amet,
+ consectetur adipiscing elit. Integer malesuada tellus lorem,
+ et condimentum neque commodo HTML (Icons : Fontawesome & CSS Framwork: Bootstrap) 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 <div class="container"><div class="row"><div class="col-md-12"><div class="main-timeline"><div class="col-md-3 col-sm-4"><div class="timeline"><a href="#"class="timeline-content"><div class="timeline-year"><span>2018</span></div><div class="inner-content"><div class="timeline-icon"><i class="fa fa-globe"></i></div><h3 class="title">Web Designing</h3><p class="description">Lorem ipsum dolor sit amet,
+ consectetur adipiscing elit. Integer malesuada tellus lorem,
+ et condimentum neque commodo </p></div></a></div></div><div class="col-md-3 col-sm-4"><div class="timeline blue"><a href="#"class="timeline-content"><div class="timeline-year"><span>2017</span></div><div class="inner-content"><div class="timeline-icon"><i class="fa fa-users"></i></div><h3 class="title">Java Script</h3><p class="description">Lorem ipsum dolor sit amet,
+ consectetur adipiscing elit. Integer malesuada tellus lorem,
+ et condimentum neque commodo </p></div></a></div></div></div></div></div></div>CSS (Fonts required: PT Sans.) 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 .main-timeline {
+     font-family: 'PT Sans', sans-serif;
+ }
+
+ .main-timeline:after {
+     content: '';
+     display: block;
+     clear: both;
+ }
+
+ .main-timeline .timeline {
+     margin: 0 -15px;
+ }
+
+ .main-timeline .timeline-content {
+     color: #EA2027;
+     text-align: center;
+     display: block;
+ }
+
+ .main-timeline .timeline-content:hover {
+     text-decoration: none;
+ }
+
+ .main-timeline .timeline-year {
+     font-size: 40px;
+     font-weight: 600;
+     padding: 0 0 15px;
+     margin: 0 0 60px;
+     border-bottom: 2px solid #555;
+     position: relative;
+     z-index: 1;
+ }
+
+ .main-timeline .timeline-year:before,
+ .main-timeline .timeline-year:after {
+     content: '';
+     background: radial-gradient(#fff, #EA2027, #EA2027);
+     height: 20px;
+     width: 20px;
+     border-radius: 50%;
+     transform: translateX(-50%);
+     position: absolute;
+     left: 50%;
+     bottom: -10px;
+ }
+
+ .main-timeline .timeline-year:after {
+     background: #555;
+     height: 55px;
+     width: 3px;
+     border-radius: 0;
+     bottom: -55px;
+     z-index: -1;
+ }
+
+ .main-timeline .inner-content {
+     background-color: #fff7e2;
+     padding: 20px 10px 10px;
+     margin: 0 10px;
+     box-shadow: 0 0 5px #444;
+     border-radius: 0 0 40px 0;
+     position: relative;
+ }
+
+ .main-timeline .inner-content:before,
+ .main-timeline .inner-content:after {
+     content: '';
+     background: rgba(0, 0, 0, 0.2);
+     height: 40px;
+     width: 25px;
+     transform: translateX(-50%);
+     position: absolute;
+     left: 50%;
+     top: -25px;
+ }
+
+ .main-timeline .inner-content:after {
+     background-color: #555;
+     height: 15px;
+     width: 15px;
+     border-radius: 50%;
+     top: -20px;
+ }
+
+ .main-timeline .timeline-icon {
+     font-size: 50px;
+     transition: all 0.3s;
+ }
+
+ .main-timeline .timeline:hover .timeline-icon {
+     transform: rotateY(360deg);
+ }
+
+ .main-timeline .title {
+     font-size: 25px;
+     font-weight: 600;
+     margin: 0 0 15px 0;
+ }
+
+ .main-timeline .description {
+     color: #333;
+     font-size: 15px;
+     letter-spacing: 1px;
+ }
+
+ .main-timeline .timeline.blue .timeline-content {
+     color: #1B1464;
+ }
+
+ .main-timeline .timeline.blue .timeline-year:before {
+     background: radial-gradient(#fff, #1B1464, #1B1464);
+ }
+
+ .main-timeline .timeline.orange .timeline-content {
+     color: #EE5A24;
+ }
+
+ .main-timeline .timeline.orange .timeline-year:before {
+     background: radial-gradient(#fff, #EE5A24, #EE5A24);
+ }
+
+ .main-timeline .timeline.green .timeline-content {
+     color: #009432;
+ }
+
+ .main-timeline .timeline.green .timeline-year:before {
+     background: radial-gradient(#fff, #009432, #009432);
+ }
+
+ @media screen and (max-width:767px) {
+     .main-timeline .timeline {
+         margin: 0 0 15px;
+     }
+ }
+
+ License Terms

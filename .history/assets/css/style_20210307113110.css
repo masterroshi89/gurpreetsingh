@@ -134,8 +134,9 @@ h6 {
   #header {
     width: 300px;
     background: #fff;
-    border-right: 1px solid #e6e9ec;
-    left: -300px;
+    border-left: 1px solid #e6e9ec;
+    
+    right: -300px;
   }
 }
 
@@ -379,8 +380,6 @@ h6 {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
-  background-color: #424034;
-  z-index:2
   
   /* background: linear-gradient(to bottom, transparent 50%, black 75%); */
 }
