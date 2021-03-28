@@ -149,26 +149,6 @@ h6 {
 --------------------------------------------------------------*/
 /* Header Node */
 
-/* .bio {
-   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
-  flex: 1 1 auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-animation: fadein 4s;
-  animation: fadein 4s;
-  letter-spacing: -1px;
-  max-width: 66%; 
-}*/
-
 @media (max-width: 800px) {
   .bio {
     max-width: none;
