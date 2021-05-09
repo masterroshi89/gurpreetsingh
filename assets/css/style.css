@@ -1347,11 +1347,11 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
+  background: #ffffff;
   color: #45505b;
   font-size: 14px;
   text-align: center;
-  padding: 30px 0;
+  /* padding: 30px 0; */
 }
 
 #footer h3 {
@@ -1377,6 +1377,13 @@ section {
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
+}
+
+#footer .footer-images{
+  background-position: center center;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  position: relative;
 }
 
 #footer .content-author__image {
