@@ -3,6 +3,8 @@
 --------------------------------------------------------------*/
 /* Additional Fonts imported */
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ruthie&display=swap');
+
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -140,7 +142,8 @@ h6 {
 
 @media (min-width: 992px) {
   #main {
-    /*     margin-left: 100px; */
+        margin-left: 50px;
+        margin-right: 50px;
   }
 }
 
